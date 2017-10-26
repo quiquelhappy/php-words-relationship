@@ -1,5 +1,5 @@
 <?php
-function wordsRelationship($one, $two, $precission){
+function wordsRelationship($one, $two, $precision){
 
   // the number of related words you want to analyze
   if ($precision == null) {
