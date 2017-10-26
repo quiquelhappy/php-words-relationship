@@ -21,24 +21,24 @@ An API programmed in PHP that helps you find words related to each other thanks 
 
     relatedWords('football', '15');
 output (`json_encode(relatedWords('football', '15'));`)
-> 
-[
-  "basketball",
-  "rugby",
-  "hockey",
-  "pigskin",
-  "league",
-  "volleyball",
-  "sport",
-  "game",
-  "golf",
-  "player",
-  "championship",
-  "team",
-  "ball",
-  "nfl",
-  "football"
-]
+ 
+> [
+>  "basketball",
+>  "rugby",
+>  "hockey",
+>  "pigskin",
+>  "league",
+>  "volleyball",
+>  "sport",
+>  "game",
+>  "golf",
+>  "player",
+>  "championship",
+>  "team",
+>  "ball",
+>  "nfl",
+>  "football"
+> ]
 
 
 ----------
