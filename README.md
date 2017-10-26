@@ -14,7 +14,9 @@ An API programmed in PHP that helps you find words related to each other thanks 
 **Get related words (Returns array)**
 
 `$word` = the original word you want to get related words from
+
 `$quantity` = how many related words you want
+
 *you can use this function without defining `$quantity`, which is by default `10.`
 
     relatedWords($word, $quantity);
@@ -44,9 +46,13 @@ output (`json_encode(relatedWords('football', '15'));`)
 
 ----------
 **Get words relationship % (Returns int)**
+
 `$one` = first word
+
 `$two` = second word
+
 `$precision` = maximum words to analyze
+
 *you can use this function without defining `$precision`, which is by default `10.`
 
     wordsRelationship($one, $two, $precision);
