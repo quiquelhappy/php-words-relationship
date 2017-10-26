@@ -51,7 +51,7 @@ output (`json_encode(relatedWords('football', '15'));`)
     wordsRelationship($one, $two, $precision);
 Example: 
 
-    wordRelationship('soccer', 'football', 15);
+    wordsRelationship('soccer', 'football', 15);
 Output (`wordsRelationship('football', 'soccer', 15);`)
 
 > 40 *(%)*
