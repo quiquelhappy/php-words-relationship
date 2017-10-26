@@ -4,7 +4,7 @@ An API programmed in PHP that helps you find words related to each other thanks 
 ------------------------------------------------------------------------
 
 ----------
-#How to use
+# How to use
 **1 Import wordsRelationship using PHP include_once on the file you want to use it. **
 `include_once 'wordsRelationship/autoload.php';`
 
